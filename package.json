@@ -1,0 +1,15 @@
+{
+	"name": "onyxdataextraction",
+	"version": "1.0.0",
+	"description": "Extract all data from xls file by using node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Saddaf Afrin Khan",
+	"license": "ISC",
+	"dependencies": {
+		"mysql": "^2.18.1",
+		"read-excel-file": "^4.0.6"
+	}
+}
