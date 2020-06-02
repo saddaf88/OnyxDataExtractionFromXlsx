@@ -1,9 +1,10 @@
 # OnyxDataExtractionFromXlsx
 
-upload members.xlsx file in "Upload" folder.
-Create a folder named "Tests" inside of "Upload" folder.
-Upload the test files in "Tests" folder.
+1. Upload members.xlsx file in "Upload" folder.
 
-Run npm install.
+2. Create a folder named "Tests" inside of "Upload" folder.
+3. Upload the test files in "Tests" folder.
 
-Run node index.js
+4. Run npm install.
+
+5. Run node index.js
