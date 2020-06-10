@@ -36,7 +36,7 @@ function insertStudentInfo(data) {
 }
 
 function insertTestScore(data) {
-	let sql = "INSERT IGNORE INTO testScores (matrikel_nr,testName,date,length,trial,maxPoint,point,taskNumber,testID) VALUES ?";
+	let sql = "INSERT IGNORE INTO testScores (matrikel_nr,testName,date,length,trial,maxPoint,point,totalNoTask,testID) VALUES ?";
 	let values = [];
 	for (let indx = 0; indx < data.length; indx++) {
 		let info = data[indx];

@@ -41,7 +41,7 @@ async function getTestDataFromXlsx(path) {
 			})
 
 			if ((col[col.length - 1] === null) && (col[col.length - 2].startsWith("Identifier"))) {
-				console.log("came to collect test id");
+
 				test_score.forEach((element) => {
 					element.testID = col[col.length - 2].replace(/Identifier:\s*/g, '');
 				})
@@ -86,7 +86,7 @@ async function getTestDataFromXlsx(path) {
 	}
 
 	cols.forEach((element) => {
-		if (element[0] != null && element[0].startsWith("Task")) {
+		if ((element[0] != null && element[0].startsWith("Task")) || (element[0] != null && element[0].includes("Aufgabe"))) {
 			countTask = countTask + 1;
 		}
 	})
