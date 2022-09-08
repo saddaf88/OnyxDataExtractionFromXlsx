@@ -10,6 +10,6 @@
 	"license": "ISC",
 	"dependencies": {
 		"mysql": "^2.18.1",
-		"read-excel-file": "^4.0.6"
+		"read-excel-file": "^4.1.0"
 	}
 }
